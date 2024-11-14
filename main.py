@@ -124,7 +124,7 @@ def main():
 
         # Área de upload
         st.subheader("Upload de Arquivos")
-        uploaded_file = st.file_uploader("Escolha um arquivo", type=['pdf', 'txt', 'csv', 'xlsx', 'docx'])
+        uploaded_file = st.file_uploader("Escolha um arquivo", type=['pdf', 'txt', 'csv', 'xlsx', 'docx', 'zip'])
 
         if uploaded_file is not None:
             col1, col2 = st.columns(2)
